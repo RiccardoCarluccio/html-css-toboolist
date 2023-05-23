@@ -31,3 +31,12 @@ section{
 .green{
     color: rgba(101,193,171,255);
 }
+
+.circle{
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    border: 1px solid rgba(101,193,171,255);
+    border-radius: 50%;
+}
