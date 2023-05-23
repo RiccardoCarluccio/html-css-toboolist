@@ -24,13 +24,22 @@ hr{
     color: rgba(246,248,249,255);
 }
 
-#container{
+                /* container */
+.container{
     width: 85%;
     max-width: 900px;
     margin: auto;
-    margin-top: 50px;
-    padding: 50px;
     background-color: white;
+    border-radius: 5px;
+}
+
+.top{
+    margin-top: 50px;
+    margin-bottom: 3px;
+}
+
+.bottom{
+    margin-bottom: 50px;
 }
 
 
@@ -59,6 +68,7 @@ h2{             /* spazio sotto i titoli delle sezioni */
 button{
     border-radius: 7px;
     padding: 7px;
+    margin: 10px;
 }
 
 .button1{
