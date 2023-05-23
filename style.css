@@ -28,10 +28,6 @@ section{
     padding: 25px;
 }
 
-.green{
-    color: rgba(101,193,171,255);
-}
-
 .circle{
     display: inline-block;
     height: 25px;
@@ -39,4 +35,36 @@ section{
     text-align: center;
     border: 1px solid rgba(101,193,171,255);
     border-radius: 50%;
+}
+
+                    /* etichette */
+.label{
+    padding: 10px;
+    border-radius: 15px;
+}
+
+                    /* colori testo */
+.green{
+    color: rgba(101,193,171,255);
+}
+
+.white{
+    color: white;
+}
+
+                    /* colori etichette */
+.celeste{
+    background-color: rgba(69,171,234,255);
+}
+
+.magenta{
+    background-color: rgba(156,114,228,255);
+}
+
+.lgreen{
+    background-color: rgba(100,192,169,255);
+}
+
+.orange{
+    background-color: rgba(242,158,51,255);
 }
