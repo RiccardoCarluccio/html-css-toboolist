@@ -15,13 +15,13 @@ header{
     vertical-align: middle;
 }
 
-img, h1{
+img, h1{        /* allineamento logo e titolo */
     display: inline-block;
     vertical-align: middle;
 }
 
-hr{
-    color: rgba(246,248,249,255);
+nav{            /* spacing sinistro dei pulsanti */
+    padding-left: 65px;
 }
 
                 /* container */
@@ -30,29 +30,30 @@ hr{
     max-width: 900px;
     margin: auto;
     background-color: white;
-    border-radius: 5px;
 }
 
 .top{
     margin-top: 50px;
     margin-bottom: 3px;
+    border-radius: 5px 5px 0 0;
 }
 
 .bottom{
     margin-bottom: 50px;
+    border-radius: 0 0 5px 5px;
 }
 
 
-article{
-    padding: 15px;
+article{        /* spacing degli articoli */
+    padding: 13px 15px;
 }
 
-section{
-    padding: 10px;
+section{        /* spacing delle sezioni */
+    padding: 10px 30px;
 }
 
 h2{             /* spazio sotto i titoli delle sezioni */
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 
 .circle{
@@ -68,7 +69,7 @@ h2{             /* spazio sotto i titoli delle sezioni */
 button{
     border-radius: 7px;
     padding: 7px;
-    margin: 10px;
+    margin: 10px 0;
 }
 
 .button1{
