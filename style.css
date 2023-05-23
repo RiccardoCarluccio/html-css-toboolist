@@ -21,4 +21,13 @@ img, h1{
 #container{
     width: 900px;
     margin: auto;
+    padding: 50px;
+}
+
+section{
+    padding: 25px;
+}
+
+.green{
+    color: rgba(101,193,171,255);
 }
