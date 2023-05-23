@@ -35,14 +35,14 @@ hr{
 
 
 article{
-    padding: 20px;
+    padding: 15px;
 }
 
 section{
     padding: 10px;
 }
 
-h2{
+h2{             /* spazio sotto i titoli delle sezioni */
     padding-bottom: 20px;
 }
 
@@ -53,6 +53,22 @@ h2{
     text-align: center;
     border: 1px solid;
     border-radius: 50%;
+}
+
+                    /* pulsanti */
+button{
+    border-radius: 7px;
+    padding: 7px;
+}
+
+.button1{
+    background-color: rgba(71,173,241,255);
+    border: 2px solid rgba(71,173,241,255);
+}
+
+.button2{
+    background-color: white;
+    border: 2px solid rgba(205,210,214,255);
 }
 
                     /* etichette */
@@ -72,6 +88,10 @@ h2{
 
 .white{
     color: white;
+}
+
+.grey{
+    color: rgba(205,210,214,255);
 }
 
                     /* colori etichette */
