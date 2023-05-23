@@ -17,12 +17,20 @@ header{
 
 img, h1{
     display: inline-block;
+    vertical-align: middle;
+}
+
+hr{
+    color: rgba(246,248,249,255);
 }
 
 #container{
-    width: 900px;
+    width: 85%;
+    max-width: 900px;
     margin: auto;
+    margin-top: 50px;
     padding: 50px;
+    background-color: white;
 }
 
 
