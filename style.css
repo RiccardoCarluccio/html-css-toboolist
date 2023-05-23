@@ -13,11 +13,16 @@ header{
     background-color: white;
     padding: 25px;
     vertical-align: middle;
+    font-size: 28px;            /* size Titolo */
 }
 
 img, h1{        /* allineamento logo e titolo */
     display: inline-block;
     vertical-align: middle;
+}
+
+img{
+    width: 63px;
 }
 
 nav{            /* spacing sinistro dei pulsanti */
