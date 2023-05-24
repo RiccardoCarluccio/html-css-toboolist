@@ -57,6 +57,10 @@ section{        /* spacing delle sezioni */
     padding: 10px 30px;
 }
 
+.padd{
+    padding: 13px 15px;
+}
+
 h2{             /* spazio sotto i titoli delle sezioni */
     padding-bottom: 15px;
 }
